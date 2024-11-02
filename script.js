@@ -51,11 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="script-details">
           <p>Game: ${script.game.name}</p>
           <p>Script Type: ${script.scriptType}</p>
-          <p>Views: ${script.views}</p>
-          <p>Created At: ${new Date(script.createdAt).toLocaleString()}</p>
-          <p>Updated At: ${new Date(script.updatedAt).toLocaleString()}</p>
           <p>Verified: ${script.verified ? 'Yes' : 'No'}</p>
-          <p>Key Required: ${keyLink}</p>
         </div>
         <div class="script-text-container">
           <p>Script: <span class="script-content">${script.script}</span></p>
